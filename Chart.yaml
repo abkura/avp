@@ -1,0 +1,6 @@
+apiVersion: v2
+name: Account Number Request
+description: Helm Chart for MyEstes - Account Number Request
+type: application
+version: 1.0.0
+appVersion: 1.0.0
