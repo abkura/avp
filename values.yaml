@@ -1,3 +1,0 @@
-env: dev
-name: accountnumberrequest
-image: docker.estesinternal.com/docker/accountnumberrequest:qa
