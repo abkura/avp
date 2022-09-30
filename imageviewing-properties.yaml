@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: imageviewing-properties
+data:      
+  imageviewing.properties: |
+    #Application Details for Swagger Documentaion
+    app.title=My Estes Image Viewing Rest Services
+    app.description=To access Image viewing rest services, user should be authenticated & should have the scope PDN100.
+    app.version=1.0.0.0
+    app.contact.name=Estes IT
+    app.contact.email=eitjeesupport@estes-express.com
+    app.contact.url=http://www.estes-express.com
+    #Image Viewing Server Information
+    imageWebServer=EXLAPROD1
+    serverURL=http://qa.estesinternal.com
+    imageFileLocation=docview
+    #WRViewing FTP Server Information
+    wr.ftp.host=exlaqa.estes.us.dom
+    wr.ftp.user=webuser001
+    wr.ftp.password=webuser001
+    wr.ftp.port=21
+    #SMTP Server Configuration
+    smtp.host=smtpmx-r01.us.dom
+    smtp.port=25
+    # Email Template for Image Viewing
+    mail.from=info@estes-express.com
+    mail.subject=Estes Express Lines - Image Viewing
+    mail.template=/apps/config/imageviewing/email.html
