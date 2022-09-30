@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
 - secret.yaml
-# - https://github.com/abkura/remoterepo
+- https://github.com/abkura/remoterepo
