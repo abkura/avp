@@ -3,5 +3,5 @@ kind: Kustomization
 
 resources:
 - imageviewing-properties.yaml
-#- secret.yaml
-#- https://github.com/abkura/remoterepo
+- secret.yaml
+- https://github.com/abkura/remoterepo
