@@ -2,5 +2,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-# private repo
-- https://github.com/abkura/remoterepo.git
+- imageviewing-properties.yaml
+- secret.yaml
